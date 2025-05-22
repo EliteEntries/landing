@@ -13,8 +13,8 @@ export default function Header() {
       <nav className="space-x-4">
         <Link href="/" className="hover:underline">Home</Link>
         <Link href="/services" className="hover:underline">Services</Link>
-        <a href="#about" className="hover:underline">About</a>
-        <a href="#contact" className="hover:underline">Contact</a>
+        <Link href="#about" className="hover:underline">About</Link>
+        <Link href="#contact" className="hover:underline">Contact</Link>
       </nav>
     </header>
   );

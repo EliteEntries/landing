@@ -1,25 +1,27 @@
+import Image from "next/image";
+
 function Logos() {
   return (
     <div className="mb-8">
       <h3 className="text-lg font-semibold text-center mb-4 text-[var(--primary)]">Our Partners</h3>
       {/* Location Logos Row */}
       <div className="flex flex-wrap justify-center items-center gap-6 mb-4">
-        <img
+        <Image
           src="/logos/locations/crunch.png"
           alt="Crunch Fitness"
           className="w-32 object-contain"
         />
-        <img
+        <Image
           src="/logos/locations/LA.png"
           alt="LA Fitness"
           className="w-32 object-contain"
         />
-        <img
+        <Image
           src="/logos/locations/Synergy.png"
           alt="Synergy Fitness"
           className="w-32 object-contain"
         />
-        <img
+        <Image
           src="/logos/locations/xsport.png"
           alt="XSport Fitness"
           className="w-32 object-contain"
@@ -27,27 +29,27 @@ function Logos() {
       </div>
       {/* Product Logos Row */}
       <div className="flex flex-wrap justify-center items-center gap-6">
-        <img
+        <Image
           src="/logos/bearbalanced.png"
           alt="Bear Balanced"
           className="w-20 object-contain"
         />
-        <img
+        <Image
           src="/logos/dreamrecovery.png"
           alt="Dream Recovery"
           className="w-20 object-contain"
         />
-        <img
+        <Image
           src="/logos/muscletech.png"
           alt="Muscletech"
           className="w-20 object-contain"
         />
-        <img
+        <Image
           src="/logos/nodpod.png"
           alt="Nodpod"
           className="w-20 object-contain"
         />
-        <img
+        <Image
           src="/logos/organifi.png"
           alt="Organifi"
           className="w-20 object-contain"
