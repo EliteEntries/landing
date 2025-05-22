@@ -1,18 +1,7 @@
-import Link from "next/link";
 
 export default function Services() {
   return (
     <div>
-      <header className="w-full bg-[var(--header-bg)] text-[var(--header-fg)] py-4 px-6 flex justify-between items-center shadow-md">
-        <span className="text-xl font-bold tracking-tight">Elite Entries Retail</span>
-        <nav className="space-x-4">
-          <Link href="/" className="hover:underline">Home</Link>
-          <Link href="/services" className="hover:underline">Services</Link>
-          <Link href="/#about" className="hover:underline">About</Link>
-          <Link href="/#contact" className="hover:underline">Contact</Link>
-        </nav>
-      </header>
-
       <section className="py-16 px-4 max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold mb-6 text-[var(--primary)]">Our Services</h1>
         <ul className="space-y-6 text-lg">

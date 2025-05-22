@@ -6,7 +6,6 @@ import Contact from "./Contact";
 export default function Home() {
   return (
     <div>
-      <Header />
       <Hero />
       <About />
       <Contact />
