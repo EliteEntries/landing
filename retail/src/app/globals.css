@@ -10,16 +10,6 @@
   --header-fg: #fff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #181a20;
-    --foreground: #ededed;
-    --accent: #23272f;
-    --header-bg: #23272f;
-    --header-fg: #7289da;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
